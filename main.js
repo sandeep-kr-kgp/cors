@@ -1,4 +1,3 @@
-import './style.css';
 let app = document.querySelector('#app');
 const myWorker = new Worker('./api.js');
 myWorker.postMessage('Hello');
